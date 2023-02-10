@@ -5,6 +5,6 @@ metadata:
     name: check-posthook
 spec:
     tower_auth_secret: aap-controller
-    job_template_name: [JT] Check Pacman Application
+    job_template_name: check-app
     extra_vars:
       phase: posthook
